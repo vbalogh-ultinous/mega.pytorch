@@ -31,5 +31,10 @@ dist/
 # MacOS
 .DS_Store
 
+# other formats
+*.txt
+
 # project dirs
 /models
+/weights
+/datasets
