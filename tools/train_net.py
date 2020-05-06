@@ -172,7 +172,7 @@ def main():
 
     num_gpus = int(os.environ["WORLD_SIZE"]) if "WORLD_SIZE" in os.environ else 1
     args.distributed = num_gpus > 1
-
+    print('Number of GPUS: {}'.format(num_gpus))
     if args.distributed:
         init_dist(args.launcher, args=args)
         synchronize()
