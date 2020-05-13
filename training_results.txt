@@ -47,7 +47,7 @@ zebra           : 0.9666
 *         RDN on 4 GPUs, elvis  			*
 *********************************************
 
-2020-05-11 13:46:21,504 mega_core.trainer INFO: eta: 1 day, 10:23:32  iter: 20  loss: 1.6699 (2.1874)  loss_box_reg: 0.1701 (0.1641)  loss_classifier: 1.0936 (1.4780)  loss_objectness: 0.4035 (0.4467)  loss_rpn_box_reg: 0.0755 (0.0986)  time: 0.9884 (1.0319)  data: 0.0017 (0.0690)  lr: 0.000360  max mem: 5509
+################ BASE STAGE #################
 
 2020-05-13 00:31:51,652 mega_core.trainer INFO: Total training time: 1 day, 10:45:50.787506 (1.0429 s / it)
 
@@ -87,3 +87,7 @@ watercraft      : 0.7092
 whale           : 0.7864
 zebra           : 0.9421
 
+
+############### ADVANCED STAGE ###############
+
+2020-05-13 09:03:48,174 mega_core.trainer INFO: eta: 17:00:19  iter: 560  loss: 0.2253 (0.1927)  loss_box_reg: 0.0898 (0.0618)  loss_classifier: 0.1041 (0.0977)  loss_objectness: 0.0104 (0.0170)  loss_rpn_box_reg: 0.0100 (0.0163)  time: 1.0141 (1.0299)  data: 0.0018 (0.0042)  lr: 0.001000  max mem: 5713
