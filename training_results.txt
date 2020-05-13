@@ -1,0 +1,89 @@
+*********************************************
+* Paper MEGA reproduction on 4 GPUs, elvis  *
+*********************************************
+
+TRAINING TIME:
+2020-05-09 03:39:07,548 mega_core.trainer INFO: Total training time: 2 days, 13:41:53.666351 (1.8509 s / it)
+
+INFERENCE:
+2020-05-09 07:28:20,959 mega_core.inference INFO: Total run time: 3:48:59.325834 (0.3120340173293182 s / img per device, on 4 devices)
+2020-05-09 07:28:20,960 mega_core.inference INFO: Model inference time: 3:44:57.810002 (0.30654894794889365 s / img per device, on 4 devices)
+2020-05-09 07:29:07,912 mega_core.inference INFO: performing vid evaluation, ignored iou_types.
+defaultdict(<class 'int'>, {27: 5761, 5: 9862, 17: 5972, 23: 6393, 14: 5476, 9: 20237, 26: 13095, 19: 1139, 20: 5898, 28: 6089, 25: 2614, 6: 6313, 7: 26690, 10: 11629, 30: 6910, 4: 8854, 12: 9092, 13: 7593, 22: 4405, 18: 10654, 24: 12088, 11: 11934, 29: 7379, 2: 7968, 8: 11365, 21: 1149, 15: 7939, 16: 2840, 1: 26387, 3: 9780})
+2020-05-09 07:30:31,136 mega_core.inference INFO: mAP: 0.8321
+airplane        : 0.9216
+antelope        : 0.8800
+bear            : 0.9276
+bicycle         : 0.7941
+bird            : 0.7772
+bus             : 0.8297
+car             : 0.6446
+cattle          : 0.8488
+dog             : 0.8474
+domestic_cat    : 0.9335
+elephant        : 0.8513
+fox             : 0.9878
+giant_panda     : 0.8810
+hamster         : 0.9881
+horse           : 0.8457
+lion            : 0.8354
+lizard          : 0.8531
+monkey          : 0.6175
+motorcycle      : 0.8396
+rabbit          : 0.7797
+red_panda       : 0.9299
+sheep           : 0.6617
+snake           : 0.8295
+squirrel        : 0.5867
+tiger           : 0.9259
+train           : 0.8874
+turtle          : 0.8263
+watercraft      : 0.6894
+whale           : 0.7750
+zebra           : 0.9666
+
+
+*********************************************
+*         RDN on 4 GPUs, elvis  			*
+*********************************************
+
+2020-05-11 13:46:21,504 mega_core.trainer INFO: eta: 1 day, 10:23:32  iter: 20  loss: 1.6699 (2.1874)  loss_box_reg: 0.1701 (0.1641)  loss_classifier: 1.0936 (1.4780)  loss_objectness: 0.4035 (0.4467)  loss_rpn_box_reg: 0.0755 (0.0986)  time: 0.9884 (1.0319)  data: 0.0017 (0.0690)  lr: 0.000360  max mem: 5509
+
+2020-05-13 00:31:51,652 mega_core.trainer INFO: Total training time: 1 day, 10:45:50.787506 (1.0429 s / it)
+
+2020-05-13 02:41:11,134 mega_core.inference INFO: Total run time: 2:09:06.586717 (0.17593283711359306 s / img per device, on 4 devices)
+2020-05-13 02:41:11,247 mega_core.inference INFO: Model inference time: 2:06:05.425529 (0.17181848287081536 s / img per device, on 4 devices)
+2020-05-13 02:41:55,638 mega_core.inference INFO: performing vid evaluation, ignored iou_types.
+defaultdict(<class 'int'>, {5: 9862, 9: 20237, 17: 5972, 23: 6393, 27: 5761, 24: 12088, 3: 9780, 4: 8854, 7: 26690, 10: 11629, 13: 7593, 14: 5476, 19: 1139, 29: 7379, 30: 6910, 2: 7968, 6: 6313, 11: 11934, 12: 9092, 26: 13095, 28: 6089, 16: 2840, 25: 2614, 1: 26387, 8: 11365, 15: 7939, 21: 1149, 20: 5898, 22: 4405, 18: 10654})
+2020-05-13 02:43:22,863 mega_core.inference INFO: mAP: 0.8085
+airplane        : 0.9320
+antelope        : 0.8630
+bear            : 0.8465
+bicycle         : 0.7727
+bird            : 0.7651
+bus             : 0.8231
+car             : 0.6525
+cattle          : 0.7744
+dog             : 0.7832
+domestic_cat    : 0.9029
+elephant        : 0.8124
+fox             : 0.9643
+giant_panda     : 0.8829
+hamster         : 0.9759
+horse           : 0.8278
+lion            : 0.7538
+lizard          : 0.8002
+monkey          : 0.5999
+motorcycle      : 0.8604
+rabbit          : 0.7174
+red_panda       : 0.9091
+sheep           : 0.6093
+snake           : 0.8296
+squirrel        : 0.5443
+tiger           : 0.9255
+train           : 0.8761
+turtle          : 0.8115
+watercraft      : 0.7092
+whale           : 0.7864
+zebra           : 0.9421
+
