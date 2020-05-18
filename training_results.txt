@@ -91,3 +91,43 @@ zebra           : 0.9421
 ############### ADVANCED STAGE ###############
 
 2020-05-13 09:03:48,174 mega_core.trainer INFO: eta: 17:00:19  iter: 560  loss: 0.2253 (0.1927)  loss_box_reg: 0.0898 (0.0618)  loss_classifier: 0.1041 (0.0977)  loss_objectness: 0.0104 (0.0170)  loss_rpn_box_reg: 0.0100 (0.0163)  time: 1.0141 (1.0299)  data: 0.0018 (0.0042)  lr: 0.001000  max mem: 5713
+2020-05-14 02:26:49,590 mega_core.inference INFO: Start evaluation on VID_val_videos dataset(176126 images).
+100%|| 43178/43178 [2:33:22<00:00,  4.69it/s]
+100%|| 43546/43546 [2:36:04<00:00,  4.65it/s]
+100%|| 44630/44630 [2:39:57<00:00,  4.65it/s]
+100%|| 44772/44772 [2:40:42<00:00,  4.64it/s]
+2020-05-14 05:07:31,202 mega_core.inference INFO: Total run time: 2:40:41.611662 (0.21897077460793818 s / img per device, on 4 devices)
+2020-05-14 05:07:31,214 mega_core.inference INFO: Model inference time: 2:38:25.511207 (0.2158797952971598 s / img per device, on 4 devices)
+2020-05-14 05:08:17,948 mega_core.inference INFO: performing vid evaluation, ignored iou_types.
+defaultdict(<class 'int'>, {5: 9862, 9: 20237, 17: 5972, 23: 6393, 27: 5761, 19: 1139, 7: 26690, 24: 12088, 3: 9780, 10: 11629, 11: 11934, 14: 5476, 29: 7379, 25: 2614, 30: 6910, 6: 6313, 12: 9092, 13: 7593, 15: 7939, 20: 5898, 26: 13095, 28: 6089, 2: 7968, 4: 8854, 16: 2840, 21: 1149, 1: 26387, 22: 4405, 18: 10654, 8: 11365})
+2020-05-14 05:09:42,798 mega_core.inference INFO: mAP: 0.8078
+airplane        : 0.9287
+antelope        : 0.8740
+bear            : 0.8366
+bicycle         : 0.7938
+bird            : 0.7622
+bus             : 0.7878
+car             : 0.6602
+cattle          : 0.7662
+dog             : 0.7897
+domestic_cat    : 0.8697
+elephant        : 0.8196
+fox             : 0.9614
+giant_panda     : 0.8901
+hamster         : 0.9633
+horse           : 0.8104
+lion            : 0.7585
+lizard          : 0.8244
+monkey          : 0.5931
+motorcycle      : 0.8570
+rabbit          : 0.6934
+red_panda       : 0.8849
+sheep           : 0.6535
+snake           : 0.7923
+squirrel        : 0.5907
+tiger           : 0.9263
+train           : 0.8945
+turtle          : 0.8155
+watercraft      : 0.7038
+whale           : 0.7931
+zebra           : 0.9402
